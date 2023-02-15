@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Dongle&family=Lobster&family=Lobster+Two&family=Mochiy+Pop+P+One&family=Montserrat:wght@200&family=Nunito:wght@200;300;400;500;600&family=Poppins:wght@200&family=Sacramento&family=Source+Sans+Pro&family=The+Nautigal&family=Ubuntu:wght@300&display=swap');
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
